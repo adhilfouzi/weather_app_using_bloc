@@ -5,10 +5,10 @@ import 'package:weather_app/model/hourly_forecast_model%20.dart';
 class WeatherModel {
   final double currentTemp;
   final String currentSky;
-  final int currentPressure; // Changed to int
+  final int currentPressure;
   final double currentWindSpeed;
-  final int currentHumidity; // Changed to int
-  final List<HourlyForecast> hourlyForecasts; // Add this property
+  final int currentHumidity;
+  final List<HourlyForecast> hourlyForecasts;
 
   WeatherModel({
     required this.currentTemp,
